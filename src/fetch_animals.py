@@ -1,7 +1,7 @@
 import json
 
 def load_mock_animals():
-    with open("./data/animals_mock.json", "r", encoding="utf-8") as f:
+    with open("./data/sample_data_for_knime.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     return data["response"]["body"]["items"]["item"]
 
