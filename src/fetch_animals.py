@@ -9,4 +9,4 @@ if __name__ == "__main__":
     animals = load_mock_animals()
     print(f"총 {len(animals)} 마리 로드됨")   # ← 마리 앞에 띄어쓰기 하나 추가
     for a in animals:
-        print(a["desertionNo"], a["kindCd"], a["careNm"])
+        print(a["noticeNo"], a["kindCd"], a["careNm"])
