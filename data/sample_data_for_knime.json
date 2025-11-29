@@ -1,0 +1,59 @@
+{
+    "response": {
+        "header": {
+            "resultCode": "00",
+            "resultMsg": "NORMAL SERVICE (Sample Data)"
+        },
+        "body": {
+            "items": {
+                "item": [
+                    {
+                        "noticeNo": "20251128001",
+                        "noticeSdt": "20251118",
+                        "noticeEdt": "20251130", 
+                        "kindCd": "[개] 말티즈",
+                        "colorCd": "흰색",
+                        "age": "2022(추정)",
+                        "weight": "3.5",
+                        "sexCd": "F",
+                        "neuterYn": "Y",
+                        "specialMark": "다리가 조금 불편해 보이며, 사람을 잘 따름.",
+                        "popfile": "http://example.com/maltiz_urgent.jpg",
+                        "careNm": "서초구 동물보호소"
+                    },
+                    {
+                        "noticeNo": "20251125002",
+                        "noticeSdt": "20251120",
+                        "noticeEdt": "20251215",  
+                        "kindCd": "[개] 믹스견",
+                        "colorCd": "갈색",
+                        "age": "2024(추정)",
+                        "weight": "8.0",
+                        "sexCd": "M",
+                        "neuterYn": "N",
+                        "specialMark": "활발하며 에너지가 넘치고, 낯선 사람에게는 경계심이 있음.",
+                        "popfile": "http://example.com/mix_normal.jpg",
+                        "careNm": "강남구 동물보호소"
+                    },
+                    {
+                        "noticeNo": "20251110003",
+                        "noticeSdt": "20251101",
+                        "noticeEdt": "20251201",  
+                        "kindCd": "[개] 시츄",
+                        "colorCd": "검정/흰색",
+                        "age": "2020(추정)",
+                        "weight": "5.2",
+                        "sexCd": "F",
+                        "neuterYn": "Y",
+                        "specialMark": "매우 온순하고 조용하며, 노령견임. 관리가 필요함.",
+                        "popfile": "http://example.com/shitzu_old.jpg",
+                        "careNm": "송파구 동물보호센터"
+                    }
+                ]
+            },
+            "numOfRows": 3,
+            "pageNo": 1,
+            "totalCount": 3
+        }
+    }
+}
